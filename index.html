@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body id="body">
+
+    <div>
+
+        <div id="form" class="p-4">
+            <h1 id="title" class="text-white text-center mt-4"> Freecode Camp Survey Form</h1>
+            <p id="description" class=" text-danger text-center p-0 m-0"> Please fill up with apppropriate information.</p>
+            <form action="" id="survey-form">
+                <div class="form-group ">
+                    <label for=" name" id="name-label"> Name</label>
+                    <input type="text" required id="name" class="form-control" placeholder="Enter your name">
+
+                </div>
+
+                <div class="form-group ">
+                    <label for="email" id="email-label"> Email</label>
+                    <input type="email" required id="email" class="form-control" placeholder="Enter your Email">
+
+                </div>
+
+
+                <div class="form-group ">
+                    <label for=""> Age <small>( optional)</small></label>
+                    <input type="date" class="form-control" placeholder="Age">
+
+                </div>
+                <div class="form-group ">
+                    <label for=" number" id="number-label"> How well do you like free code camp on a scale of 1-10 </label>
+                    <input type="number" class="form-control" id="number" min="1" max="10" placeholder="Enter a number">
+
+                </div>
+
+
+
+                <div class="form-group ">
+                    <label for=""> Which option best describes your current role</label>
+                    <select id="dropdown" class="form-control ">
+                        <option selected>Choose current role</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="expert">Expert</option>
+                        <option value="advance">Advance</option>
+                    </select>
+
+                </div>
+
+
+                <div class="form-group ">
+                    <label for=""> Would you recommend free code camp to a friend</label>
+                    <div class="radio-items">
+                        <input type="radio" class="input" name="option" value="yes">
+                        <label for="">Yes</label>
+
+                    </div>
+                    <div class="p-0 ">
+                        <input type="radio" class="input" name="option" value="maybe">
+                        <label for="">Maybe</label>
+
+                    </div>
+                    <div class=" p-0 ">
+                        <input type="radio" class="input" name="option" value="no">
+                        <label for="">No</label>
+
+                    </div>
+
+                </div>
+                <div class="form-group ">
+                    <label for=""> Where do you intend to go to</label>
+                    <div class="p-0">
+                        <input type="checkbox" class="input" value="austra">
+                        <label for="">Austra</label>
+
+                    </div>
+                    <div class="p-0">
+                        <input type="checkbox" class="input" value="Usa">
+                        <label for="">Usa</label>
+
+                    </div>
+                    <div class=" p-0 ">
+                        <input type="checkbox" class="input" value="canada">
+                        <label for="">Canada</label>
+
+                    </div>
+                    <div class="p-2">
+                        <textarea class=" form-control " id="" cols="30" rows="10">
+                            Leave a comment.
+                        </textarea>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12 p-2">
+                    <button class="btn btn-success btn-lg btn-block" id="submit" type="submit">Submit</button>
+                </div>
+
+                <div class="col-md-12 p-2 ">
+                    <button class="btn btn-outline-danger btn-lg btn-block" type="reset">Cancel</button>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </div>
+
+
+</body></html>
